@@ -8,6 +8,11 @@
     <artifactId>02_MoveCreationKnowledgeToFactory</artifactId>
     <version>1.0</version>
 
+    <properties>
+        <!-- Компилируем и таргетим под Java 17 (можно 21 или 22-LTS) -->
+        <maven.compiler.release>21</maven.compiler.release>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
