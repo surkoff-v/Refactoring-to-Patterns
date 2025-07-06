@@ -4,9 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>02_MoveCreationKnowledgeToFactory</groupId>
+    <parent>
+        <groupId>com.surkoffv</groupId>
+        <artifactId>refactoring-to-patterns</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath> <!-- путь к parent -->
+    </parent>
+
     <artifactId>02_MoveCreationKnowledgeToFactory</artifactId>
-    <version>1.0</version>
 
     <properties>
         <!-- Компилируем и таргетим под Java 17 (можно 21 или 22-LTS) -->

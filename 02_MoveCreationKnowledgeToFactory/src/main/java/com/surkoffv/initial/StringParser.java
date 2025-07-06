@@ -1,4 +1,4 @@
-package initial;
+package com.surkoffv.initial;
 
 public class StringParser {
     private Parser parser;

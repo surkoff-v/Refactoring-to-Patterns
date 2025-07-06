@@ -1,4 +1,4 @@
-package initial;
+package com.surkoffv.MyWork;
 
 public interface CapitalStrategy {
 }
